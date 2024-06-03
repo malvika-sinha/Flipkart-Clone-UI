@@ -1,0 +1,31 @@
+@media screen and (max-width: 1000px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .search{
+        width: 40px;
+    }
+    .but button{
+     position: relative;
+     bottom: 1px;
+     left: 117px;
+     width: 55px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    /* .slider{
+        width: 20px;
+        height: 20px;
+    } */
+}
